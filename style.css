@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,#000000cc,#00000078 60%,#000000cc 100%), url(netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.sign-in-btn:hover{
+    background-color: red;
+}
+.sign-in-btn{
+    transition: background-color 0.5s ease-out;
+}
+.header-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+.header-content h1{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 1100px;
+    margin:20px auto;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: #00000067;
+    border-radius:1px ;
+    border: 1px solid#979797;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    overflow: hidden;
+    max-width: 400px;
+}
+.email-signup input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.email-signup input::placeholder{
+    color:#fffffb;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size:20px;
+    cursor: pointer;
+    padding: 18px 30 px;
+}
+.feature{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis:50%;
+    margin-bottom:20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+
+}
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+footer h2{
+    font-size:18px;
+    font-weight:400;
+    margin-bottom: 30px;
+}
+.footer .col{
+    flex-basis:25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+}
+.footer.col a{
+    display:block;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
